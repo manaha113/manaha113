@@ -1,0 +1,190 @@
+body{
+color: #fa5a04;
+font-family:   Arial, sans-serif;
+margin: 0;
+
+background-image: url("../image/kuro.jpg");
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+header{
+   background-image: url("../image/2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+article{
+background-color: transparent;
+margin: 30px;
+padding: 20px;
+border-radius: 10px;
+}
+
+.box{
+display: flex;
+gap: 20px;
+margin: 30px;
+}
+
+section{
+background-color: rgba(255,255,255,0.05);
+border: 1px solid rgba(255,255,255,0.2);
+color: white;
+padding: 20px;
+border-radius: 10px;
+width: 22%;
+
+box-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+}
+
+h1{
+color: #e8dfbf;
+font-size:90px;
+font-weight:700;
+letter-spacing:5px;
+color: #e8dfbf;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+h2{
+color: #e8dfbf;
+text-transform:uppercase;
+}
+
+footer{
+background-color: black;
+color: #e8dfbf;
+text-align: center;
+padding: 20px;
+}
+
+span{
+color: red;
+font-weight: bold;
+}
+
+img{
+     max-width: 100%;
+}
+
+p{
+    line-height: 1.8;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+.float-left{
+    float: left;
+    margin-right: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+@media screen and (max-width:768px){
+
+.box{
+    flex-direction: column;
+}
+
+section{
+    width:auto;
+}
+
+}
+
+nav{
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #e8dfbf;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+ul{
+    list-style-image: url("../image/icon.png");
+}
+
+.pan li{
+    display:inline;
+}
+
+.back-top{
+    text-align:center;
+    font-weight:bold;
+}
+
+a:link{
+    color:#e8dfbf;
+    text-decoration:none;
+}
+
+a:visited{
+    color:#d8cba5;
+}
+
+a:hover{
+    color:#fa5a04;
+    text-decoration:underline;
+}
+
+a:active{
+    color:red;
+}
+
+.float-left{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media print{
+
+body{
+background:none;
+color:black;
+}
+
+header{
+background:none;
+color:black;
+}
+
+nav{
+display:none;
+}
+
+footer{
+display:none;
+}
+
+}
